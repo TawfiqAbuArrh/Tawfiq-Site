@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  emartvisioncomingsoonpage:
+    image: emartvisioncomingsoonpage
+    build:
+      context: .
+      dockerfile: ./Dockerfile
